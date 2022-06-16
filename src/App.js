@@ -19,7 +19,7 @@ export default function App() {
   useEffect(()=>{
       /*global google*/
      google.accounts.id.initialize({
-      client_id:"179894350369-robnv62eejjiktqjenln6rif84n6d4kd.apps.googleusercontent.com",
+      client_id:"",
       callback:handleCallbackResponse
   });
     google.accounts.id.renderButton(
@@ -42,6 +42,7 @@ export default function App() {
      </div>
      
      }
+     
      
     </div>
   );
